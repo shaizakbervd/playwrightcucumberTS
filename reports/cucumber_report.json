@@ -1,0 +1,363 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "scenario-1;select-dove-items-and-add-newest-item-to-the-cart",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Select Dove items and add newest item to the cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3946582600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged into the application with username \"shaiz\" and password \"vivov11pro\"",
+            "match": {
+              "location": "steps\\scenario1.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1066631100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Navigate to the Dove items",
+            "match": {
+              "location": "steps\\scenario1.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1395634000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Add the Dove items to the cart",
+            "match": {
+              "location": "steps\\scenario1.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 485865799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Navigate to the cart",
+            "match": {
+              "location": "steps\\scenario1.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 318580299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Assert the Price \"$7.20\" and Quantity \"1\"",
+            "match": {
+              "location": "steps\\scenario1.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4136399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1888947400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "scenario-1",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Scenario 1",
+    "tags": [],
+    "uri": "features\\scenario1.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "scenario-2;navigate-to-apparels-section-sorting-tshirts-and-adding-top3-lowest-value-products-then-add-highest-valued-shoe-product",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Navigate to apparels section sorting tshirts and adding top3 lowest value products then add highest valued shoe product",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3775632599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged into the application with username \"shaiz\" and password \"vivov11pro\"",
+            "match": {
+              "location": "steps\\scenario1.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1146079700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Navigate to the Apparel Section and tshirts section",
+            "match": {
+              "location": "steps\\scenario2.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 837823100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Select the Sorting filter with value \"p.price-ASC\"",
+            "match": {
+              "location": "steps\\scenario2.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 247981599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Add the products to the cart of counts \"3\"",
+            "match": {
+              "location": "steps\\scenario2.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5140918000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Navigate to Shoes Section",
+            "match": {
+              "location": "steps\\scenario2.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 792521199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Select the Sorting filter with value \"p.price-DESC\"",
+            "match": {
+              "location": "steps\\scenario2.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259836200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Add the products to the cart of count \"1\"",
+            "match": {
+              "location": "steps\\scenario2.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2886877199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Navigate to the Cart",
+            "match": {
+              "location": "steps\\scenario2.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 896199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Assert the added products \"3\"",
+            "match": {
+              "location": "steps\\scenario2.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1086199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3415233100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "scenario-2",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Scenario 2",
+    "tags": [],
+    "uri": "features\\scenario2.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "scenario-4;add-men-products-whose-name-ends-with-m",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Add men products whose name ends with M",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3599159499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged into the application with username \"shaiz\" and password \"vivov11pro\"",
+            "match": {
+              "location": "steps\\scenario1.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1297682199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Navigate to the Men items",
+            "match": {
+              "location": "steps\\scenario4.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 525480300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Add the products ending with letter \"M\"",
+            "match": {
+              "location": "steps\\scenario4.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2246668499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Navigate to the cart",
+            "match": {
+              "location": "steps\\scenario1.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297384799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Assert the Product ending with letter \"M\"",
+            "match": {
+              "location": "steps\\scenario4.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 227311700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1629963400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "scenario-4",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Scenario 4",
+    "tags": [],
+    "uri": "features\\scenario4.feature"
+  }
+]

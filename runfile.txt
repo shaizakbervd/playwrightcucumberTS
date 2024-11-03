@@ -1,0 +1,6 @@
+// to run all scenarios
+npm run TestScenarios
+
+// to run parallel in differen browsers
+
+npm run test:all
