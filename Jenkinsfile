@@ -26,19 +26,5 @@ pipeline {
                 echo "Deploying project"
             }
         }
-
-        stage('Publish Report') {
-            steps {
-                publishHTML([
-                    allowMissing: false, 
-                    alwaysLinkToLastBuild: true, 
-                    keepAll: false, 
-                    reportDir: "report", // Update this to your report directory if different
-                    reportFiles: "index.html", 
-                    reportName: 'HTML Report', 
-                    reportTitles: ''
-                ])
-            }
-        }
     }
 }
