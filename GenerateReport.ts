@@ -19,3 +19,4 @@ const options: Options = {
 };
 
 reporter.generate(options);
+process.exit(0);
