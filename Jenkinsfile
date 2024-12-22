@@ -20,12 +20,9 @@ pipeline {
                 script {
                     emailext(
                         to: 'shaiz.akber@venturedive.com',
-                        cc: '',
-                        bcc: '',
-                        from: '',
-                        replyTo: '',
                         subject: 'Jenkins Report',
-                        body: 'Hello, this is the email from the Jenkins job.',
+                        body: 'Hello, this is the email from the Jenkins job.'
+                        <p>Check the <a href="${env.BUILD_URL}">build details</a> and <a href="${env.BUILD_URL}HTML_Report/index.html">HTML Report</a>.</p>,
                         mimeType: 'text/plain'
                     )
                 }
