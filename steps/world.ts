@@ -45,7 +45,7 @@ After(async () => {
     await homepg.Navigate_Cart();
     await cartpg.Delete_Items();
     await browser.close();
-    //await process.exit();
+    await process.exit();
 });
 
 export { loginpg, homepg, cartpg, page };
